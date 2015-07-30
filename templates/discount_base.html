@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Afslættir &#124; {{ block.super }}{% endblock %}
+
+{% block content %}
+<h1>Afslættir</h1>
+<p>Félagsmenn nemendafélagsins Stiguls njóta sérkjara hjá eftirtöldum samstarfsaðilum.</p></br>
+
+<div id="Dominos">
+    <h2>Domino’s</h2>
+    <p>Domino’s Pizza veitir félagsmönnum 30% afslátt af öllum pizzum á matseðli þegar pantað er á netinu e afsláttarkóðann er að finna aftan á félagaskírteininu. Afslátturinn gildir ekki fyrir heimsendingar og ekki með öðrum tilboðum. Lágmarkspöntun er 1.000 fyrir afslátt.</p></br>
+</div>
+
+<div id="Hresso">
+    <h2>Hressó / Bjarni Fel</h2>
+    <p><b>Tilboð alla daga gegn framvísun nemendafélagsskírteinis </b></br>
+    20% afsláttur af heildarreikningi (gildir á Hressingarskálanum, Bjarna Fel, Sportbar, Sushibarnum, Sakebarnum og Kofa Tómasar Frænda). </br>
+    3 fyrir 1 af völdum kokteilum milli kl. 21-22 (gildir frá og með 1. október 2013).</p>
+    <p><b>Tilboð að loknum vísindaferðum gegn framvísun skírteinis til kl. 01:00 </b></br>
+    Stór bjór á 390 kr. (0,5L Carlsberg eða Víking) </br>
+    Valin skot á 550 kr. </br>
+    Einfaldur í gos á 790 kr. </br>
+    6 í fötu á 3.500 kr. </br>
+    6 skot á 3.000 kr. </br>
+    Bjórturn á 5.000 kr. (fæst bara á Bjarna Fel Sportbar) </p>
+    <p><i>Nemendaskírteinið virkar sem V.I.P. kort þegar það er röð inn á Hressó og Bjarna Fel.</i></p></br>
+</div>
+
+<div id="Zimsen">
+    <h2>Kaffi Zimsen</h2>
+    <p><b>Tilboð í vísindaferðum kl. 19:00 - 0:00</b> </br>
+    Stór bjór: 390 kr </br>
+    Skot: 550 kr </br>
+    Hvítt og rautt: 650 kr </br>
+    Einfaldur í Orku: 890 kr </p>
+    <p><b>Önnur tilboð fyrir virka daga</b> </br>
+    Hvítt og rautt: 750 kr </br>
+    Bjórkort 10 bjórar: 6500 kr (hægt að nota alla daga og um helgar)</p></br>
+</div>
+
+<div id="Pisa">
+    <h2>Veitingastaðurinn Pisa, Lækjargötu 6b</h2>
+    <p>25% afsláttur af matseðli sunnudags til miðvikudags, </br>
+    15% afsláttur af matseðli fimmtudags-laugardags.</p></br>
+</div>
+
+<div id="SHI">
+    <h2>Afslættir Stúdentaráðs</h2>
+    <p>Með stúdentakorti háskólans fást mikið af afsláttum, sjá hér: <a href="http://student.is/augl%C3%BDsingabox/st%C3%BAdentar%C3%A1%C3%B0_box_1">http://student.is/auglýsingabox/stúdentaráð_box_1/</a>.</p>
+</div>
+
+{% endblock content %}
+
+{% block alt_content %}
+<h2>Samstarfsaðilar</h2>
+<a onclick="document.getElementById('Dominos').scrollIntoView();">Domino’s Pizza</a> </br>
+<a onclick="document.getElementById('Hresso').scrollIntoView();">Hressingarskálinn / Bjarni Fel</a> </br>
+<a onclick="document.getElementById('Zimsen').scrollIntoView();">Kaffi Zimsen</a> </br>
+<a onclick="document.getElementById('Pisa').scrollIntoView();">Veitingarstaðurinn Pisa</a> </br>
+<a onclick="document.getElementById('SHI').scrollIntoView();">Stúdentaráð Háskóla Íslands</a> </br>
+{% endblock %}
